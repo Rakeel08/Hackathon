@@ -1,24 +1,22 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #cc3636;
     color: #333;
-    padding-top: 80px; /* Adjust to match the height of the fixed header */
 }
 
-/* Header */
 header {
-    background: #2c3e50;
+    background: #14800a;
     color: rgb(199, 180, 180);
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    position: fixed; /* Makes the header fixed at the top */
-    top: 0; /* Positions it at the very top */
-    width: 100%; /* Ensures it spans the full width of the page */
-    z-index: 1000; /* Ensures it stays above other elements */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Adds a shadow for better visibility */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -29,7 +27,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 5px;
 }
 
 nav ul li a {
@@ -38,7 +36,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Sections */
+
 section {
     max-width: 800px;
     margin: 20px auto;
@@ -52,12 +50,10 @@ h2 {
     color: #2c3e50;
 }
 
-/* Interests List */
 ul {
     padding-left: 20px;
 }
 
-/* Projects */
 .project {
     background: #ecf0f1;
     padding: 15px;
@@ -66,7 +62,6 @@ ul {
     border-radius: 5px;
 }
 
-/* Contact Form */
 form {
     display: flex;
     flex-direction: column;
@@ -96,7 +91,6 @@ button:hover {
     background: #2980b9;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 15px;
