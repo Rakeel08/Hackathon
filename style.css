@@ -10,7 +10,7 @@ body {
 header {
     background: #14800a;
     color: rgb(199, 180, 180);
-    padding: 0px;
+    padding: 5px;
     text-align: center;
     position: fixed; 
     top: 0; 
