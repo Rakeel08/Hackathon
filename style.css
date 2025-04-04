@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #cc3636;
     color: #333;
+    padding-top: 80px; /* Adjust to match the height of the fixed header */
 }
 
 /* Header */
@@ -13,11 +14,17 @@ header {
     color: rgb(199, 180, 180);
     padding: 20px;
     text-align: center;
+    position: fixed; /* Makes the header fixed at the top */
+    top: 0; /* Positions it at the very top */
+    width: 100%; /* Ensures it spans the full width of the page */
+    z-index: 1000; /* Ensures it stays above other elements */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Adds a shadow for better visibility */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
